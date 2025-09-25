@@ -7,8 +7,8 @@ export default defineConfig({
     react({
       babel: {
         plugins: [['babel-plugin-react-compiler']],
-        base: '/HandOn_week6/'
       },
     }),
   ],
+  base: '/HandOn_week6/'
 })
